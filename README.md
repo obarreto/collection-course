@@ -46,3 +46,46 @@ ____
 * Pode ser ordenado.
 
 Obs: Não estende da interface `colletction`.
+
+____
+
+
+
+# Comparators
+
+* Interfaces 
+  * java.util.Comparator - Interface para definir classe com regra de ordenação
+  * java.util.Comparable - Interface para definir regra de ordenação em uma classe de domínio
+
+* Algoritmos de ordenação
+* Utilizado primeiramente em java.util.List
+* Permite a ordenação de objetos complexos(criados pelo usuário)
+
+____
+
+
+
+# Optionals
+
+* Tratamento para valores que podem ser nulos
+* Possui dois estados
+  * Presente
+  * Vazio
+
+* Permite que você execute operações em valores que podem ser nulos sem preocupação com as famosas NullPointerExceptions
+
+____
+
+
+
+# Stream API
+
+* Manipulação de coleções com o paradigma funcional de forma paralela
+* Imutável - Não altera a coleção origem, sempre cria uma nova coleção
+* Principais funcionalidades
+  * Mapping - Retorna uma coleção com mesmo tamanho da origem com os elementos alterados
+  * Filtering - Retorna uma coleção igual ou menor que a coleção origem, com os elementos intactos
+  * ForEach - Executa uma determinada lógica para cada elemento, retornando nada.
+  * Peek - Executa uma determinada lógica para cada elemento, retomando a própria coleção.
+  * Couting - Retorna um inteiro que representa a contagem de elementos.
+  * Grouping - Retorna uma coleção agrupada de acordo com a regra definida.

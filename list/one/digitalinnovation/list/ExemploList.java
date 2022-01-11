@@ -53,7 +53,7 @@ public class ExemploList {
 		boolean temOzeias = nomes.contains("Ozeias");
 		System.out.println(temOzeias);
 		
-		boolean temEU =nomes.contains("Eu");
+		boolean temEU = nomes.contains("Eu");
 		System.out.println(temEU);
 		
 		nomes.clear(); // limpa a lista
